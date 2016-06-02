@@ -1,0 +1,37 @@
+{
+  "name": "alloy-widget-mobile",
+  "version": "0.0.1",
+  "description": "Widget for use with Appcelerator Alloy",
+  "keywords": [],
+  "homepage": "git://github.com/mobilehero/alloy-widget-mobile",
+  "bugs": {
+    "url": "https://github.com/mobilehero/alloy-widget-mobile/issues",
+    "email": "info@mobilehero.me"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "MobileHero",
+    "email": "info@mobilehero.me",
+    "url": "https://github.com/mobilehero"
+  },
+  "main": "./lib/alloy-widget-mobile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mobilehero/alloy-widget-mobile.git"
+  },
+  "devDependencies": {
+	"grunt": "~0.4.5",
+	"grunt-mocha-test": "~0.10.2",
+	"grunt-contrib-jshint": "~0.10.0",
+	"grunt-contrib-clean": "~0.5.0",
+	"istanbul": "~0.2.10",
+	"mocha": "~1.19.0",
+	"should": "~3.3.1"
+},
+  "engines": {
+    "node": ">=0.10"
+  }
+}
